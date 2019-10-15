@@ -30,7 +30,7 @@ public class MyAdventure : MonoBehaviour
     }
 
     private States currentState = States.start;
-    // Start is called before the first frame update (open ShowMainMenu als spel start)
+    // zorgt dat de het eerste stukje script word aangeroepen
     void Start()
     {
         ShowMainMenu();
